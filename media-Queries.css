@@ -24,8 +24,8 @@
         margin-right: 7%;
     }
     .container-5{
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .container-6{
         padding: 0px;
@@ -38,7 +38,7 @@
 
 }
 
-@media screen and (max-width: 835px) and (max-width: 785){
+@media screen and (max-width: 835px) {
     html{
         font-size: 0.6rem;
     }
@@ -87,8 +87,8 @@
     
 
     .container-5{
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
  
     .discription-content{
@@ -97,5 +97,105 @@
     }
     .container-4 .portfoliyo-description {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 779px){
+    .box-collection .box{
+        width: 200px;
+        height: 200px;
+    }
+    .container-5{
+        gap: 35px;
+
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    html{
+        font-size: 0.6rem;
+    }
+    body{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .flex-container{
+        flex-direction: column-reverse;
+    }
+    .flex-item-1 {
+        width: 100%;
+    }
+    .intro {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .icon-header {
+        top: 51px;
+    }
+    .container-2 {
+        padding: 5rem 20px;
+        flex-direction: column;
+    }
+    .container-2 div .empty{
+       height: 0px;
+    }
+    .container-2 div .empty-2{
+       height: 30px;
+    }
+    .container-3{
+        /* position: relative; */
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .container-3 .box-collection{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        top: -70px;
+    }
+    .box-collection .box{
+        height: 130px;
+        width: 250px;
+        font-size: 1.5rem;
+    }
+
+    .container-4{
+        margin-top: calc(130px *3);
+        grid-template-columns: 1fr 0px;
+        gap: 15px 0px;
+        grid-template-areas:
+        "a "
+        "b"
+        "c"
+        "d";
+    }
+    .grid-img {
+        width: 150px;
+        height: 190px;
+    }
+
+    .container-5 {
+        
+        grid-template-areas:
+            "news news"
+            " blog blog"
+            "img profile";
+        gap: 20px 30px;
+        
+    }
+    .container-5 .img img{
+        height: 150px;
+        width: 190;
+        border-radius: 10px;
+    }
+    .profile .profile-des {
+        font-size: 1.2rem;
+    }
+    .container-6 {
+        padding: 0px;
+        margin: 7%;
+        flex-direction: column;
     }
 }

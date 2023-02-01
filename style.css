@@ -164,6 +164,10 @@ body {
 .container-2 div .empty{
     height: 150px;
 }
+.container-2 div .empty-2{
+    height: 0px;
+ }
+
 
 .container-3{
     /* width: 100%; */
@@ -273,6 +277,7 @@ body {
     grid-area: news;
     font-size: 1.5rem;
     font-weight: bold;
+    width: max-content;
 }
 .container-5 .blog{
     grid-area: blog;
